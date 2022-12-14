@@ -12,131 +12,131 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset class ="fieldset">
+      <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <label class="form__field">
+        <label class="fieldset__field">
           Surname:
           <input
-          type="name"
-          name="surname"
-          class="field"
-          pattern="\w+"
-          required
-          autocomplete="off"
+            type="name"
+            name="surname"
+            class="field"
+            pattern="\w+"
+            required
+            autocomplete="off"
           >
         </label>
-        <label class="form__field">
+        <label class="fieldset__field">
           Name:
           <input
-          type="name"
-          name="name"
-          class="field"
-          pattern="\w+"
-          required
-          autocomplete="off"
+            type="name"
+            name="name"
+            class="field"
+            pattern="\w+"
+            required
+            autocomplete="off"
           >
         </label>
-        <label class="form__field">
+        <label class="fieldset__field">
           How old are You?
           <input
-          type="number"
-          name="years"
-          min="1"
-          max="100"
-          value="12"
-          required
-          autocomplete="off"
+            type="number"
+            name="years"
+            min="1"
+            max="100"
+            value="12"
+            required
+            autocomplete="off"
           >
         </label>
-        <label class="form__field">
+        <label class="fieldset__field">
           Full date of birth:
           <input
-          type="date"
-          required
+            type="date"
+            required
           >
         </label>
         <div>
-          <label for = "agreement" class="form__label">
+          <label for="agreement" class="fieldset__label">
             I accept the term of the agreement
           </label>
           <input
-          id="agreement"
-          type="checkbox"
-          name="agreement"
-          class="field"
+            id="agreement"
+            type="checkbox"
+            name="agreement"
+            class="field"
           >
         </div>
       </fieldset>
-      <fieldset class ="fieldset">
+      <fieldset class="fieldset">
         <legend>Registration</legend>
-        <label class="form__field">
+        <label class="fieldset__field">
           E-mail:
           <input
-          type="email"
-          name="email"
-          class="field"
-          placeholder="email@example.com"
-          required
-          autocomplete="off"
+            type="email"
+            name="email"
+            class="field"
+            placeholder="email@example.com"
+            required
+            autocomplete="off"
           >
         </label>
         <label>
           Password:
           <input
-          type="password"
-          name="password"
-          class="field"
-          minlength="6"
-          maxlength="20"
-          required
-          autocomplete="off"
+            type="password"
+            name="password"
+            class="field"
+            minlength="6"
+            maxlength="20"
+            required
+            autocomplete="off"
           >
         </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <div class="form__field">
+        <div class="fieldset__field">
           Do you love cats?
-          <label class = "form__label">
+          <label class="fieldset__label">
             <input
-            type="radio"
-            name="answer_cat"
-            value="possitive"
-            class="field"
-            checked
+              type="radio"
+              name="answer_cat"
+              value="possitive"
+              class="field"
+              checked
             >
             Yes
           </label>
-          <label class = "form__label">
+          <label class="fieldset__label">
             <input
-            type="radio"
-            name="answer_cat"
-            value="negative"
-            class="field"
+              type="radio"
+              name="answer_cat"
+              value="negative"
+              class="field"
             >
             No
           </label>
         </div>
-        <div class="form_field">
-          <label class="form__field">
+        <div class="fieldset_field">
+          <label class="fieldset__field">
             What is your favorite color?
             <input
-            type="color"
-            name = "color"
-            class="field"
+              type="color"
+              name="color"
+              class="field"
             >
           </label>
-          <label class="form__field">
+          <label class="fieldset__field">
             What time do you go to bed?:
             <input
-            type="time"
-            name="time"
-            step="2"
-            class="field"
-            required
+              type="time"
+              name="time"
+              step="2"
+              class="field"
+              required
             >
           </label>
-          <label class="form__field">
+          <label class="fieldset__field">
             What are your favorite brand of cars?
             <select name="brand_cars" multiple>
               <option value="Ford">Ford</option>
@@ -147,17 +147,17 @@
           <label>
             How do you rate our work
             <input
-            type="range"
-            name="range"
-            class="field"
-            value="0"
+              type="range"
+              name="range"
+              class="field"
+              value="0"
             >
           </label>
         </div>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Additional info</legend>
-        <label class="form__field">
+        <label class="fieldset__field">
           Comments:
           <textarea name="comments" autocomplete="off">
           </textarea>
